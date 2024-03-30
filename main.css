@@ -1,0 +1,277 @@
+.catigor {
+  display: flex;
+  justify-content: space-between;
+  padding: 160px 80px 40px 80px;
+}
+.catigor h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+.catigor button {
+  background-color: #E7FAFE;
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+  color: black;
+  border: none;
+  font-size: 16px;
+}
+
+.menyu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.menyu .divsd {
+  background-color: white;
+  padding-top: 55px;
+  border-radius: 3 0px;
+}
+.menyu .divs {
+  justify-content: center;
+  width: 400px;
+  height: 434px;
+  padding: 44px 16px 0px 16px;
+  font-family: Inter;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  margin: 20px;
+}
+.menyu .divs h1 {
+  font-size: 24px;
+  padding-left: 20px;
+}
+.menyu .divs img {
+  padding-left: 20px;
+}
+.menyu .dilfuz {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.elements img {
+  padding-left: 90px;
+}
+
+.ddd {
+  text-align: center;
+  font-family: Inter;
+}
+
+.elements {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+.elements .foods {
+  font-family: inter;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 152px;
+  flex-direction: column;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+  margin: 50px 40px 102px 40px;
+  transition: 1s;
+}
+.elements .foods img {
+  margin: 0;
+  padding: 0;
+  transition: 1s;
+}
+.elements .foods img:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.elements .foods:nth-child(2) {
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.elements .foods:nth-child(3) {
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.elements .foods:nth-child(4) {
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+
+.chef {
+  display: flex;
+  justify-content: center;
+}
+.chef button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 21px 53px 22px 52px;
+  border-radius: 16px;
+  font-family: Inter;
+}
+.chef .textt {
+  margin: 150px 30px 0px 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+}
+.chef .textt h1 {
+  font-size: 48px;
+}
+.chef .textt p {
+  font-size: 16px;
+}
+.chef .textt button {
+  margin-top: 60px;
+}
+
+.Instagram {
+  text-align: center;
+}
+.Instagram h1 {
+  font-size: 48px;
+  font-family: inter;
+}
+
+.insta {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  height: 664px;
+}
+.insta .posts {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+.insta button {
+  width: 229px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  font-family: Inter;
+  font-size: 14px;
+  margin-left: 750px;
+  margin-top: 65px;
+}
+.insta button i {
+  padding: 19px 10px 19px 16px;
+  font-size: 25px;
+}
+
+.hero3 {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 48px 20px 10px 45px;
+}
+.hero3 h1 {
+  font-family: Inter;
+  font-size: 48px;
+}
+.hero3 p {
+  font-size: 16px;
+  font-family: Inter;
+  color: grey;
+}
+
+.menyu2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.menyu2 .dives {
+  padding-top: 30px;
+}
+.menyu2 .dives h1 {
+  font-size: 18px;
+  font-family: Inter;
+}
+.menyu2 .dilfuz {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: Inter;
+  font-size: 14px;
+  color: green;
+}
+
+.oqilova {
+  width: 1400px;
+  height: 450px;
+  background-color: #E7F9FD;
+  border-radius: 20px;
+  padding-top: 90px;
+  text-align: center;
+  margin: 50px 40px 50px 190px;
+}
+.oqilova .inputs {
+  position: relative;
+  margin-top: 70px;
+}
+.oqilova .inputs button {
+  position: absolute;
+  left: 700px;
+  top: 7px;
+  font-family: Inter;
+  align-items: center;
+}
+.oqilova .inputs .subrise {
+  background-color: black;
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.oqilova .inputs input {
+  width: 480px;
+  height: 80px;
+  font-weight: 500px;
+  border-radius: 17px;
+  border: none;
+}
+.oqilova .delic {
+  font-family: Inter;
+  text-align: center;
+}
+.oqilova .delic h1 {
+  font-size: 48px;
+}
+.oqilova .delic p {
+  color: grey;
+}
+.oqilova .imgss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -242px;
+}
+.oqilova .imgss .emgs {
+  margin-top: 135px;
+}
+
+.footer {
+  font-family: Inter;
+  margin: 30px 50px 50px 50px;
+}
+.footer .pp {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+}
+.footer span {
+  color: #FF7967;
+}
+.footer .klas {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .icanss {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  margin-top: -40px;
+}/*# sourceMappingURL=main.css.map */

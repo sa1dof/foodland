@@ -1,0 +1,83 @@
+/* 
+body{
+    
+  
+} */
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   padding: 46px 80px 0px 80px;
+   justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+}
+.text{
+    background-color: #E7FAFE;;
+    width: 700px;
+    height: 640px;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 70px;
+    
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.hero1{
+    display: flex;
+    justify-content: center;
+}
+.badge{
+    margin-top: 50px;
+    position: absolute;
+}
+.new{
+    font-size: 64px;
+    font-family: Inter;
+
+}
+.Recipes{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: Inter;
+    font-size: 14px;d
+}
+
+.pp{
+    color: grey;
+    font-family: Inter;
+}
+.black{
+    background-color: black;
+    color: white;
+    padding: 22px 37px;
+    border-radius: 16px;
+}
+.whte{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  padding-right: 50px;
+}
+
+
